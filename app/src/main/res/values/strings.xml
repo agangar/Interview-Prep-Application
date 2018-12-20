@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">insideInterview</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="not_have_an_account_signup_here">Not have an account? Signup Here</string>
+    <string name="signup">Signup</string>
+    <string name="user_login">User Login</string>
+    <string name="already_registered_signin_here">Already Registered? Signin Here</string>
+    <string name="registrationn">User Registration</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="click_here_to_register">Click here to Register</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="description">Description.....................</string>
+    <string name="propellant">Propellant</string>
+    <string name="outcome">outcome</string>
+    <string name="questions">questions</string>
+    <string name="skills">Skills</string>
+    <string name="advice">Advice</string>
+    <string name="process">process</string>
+    <string name="type">Type</string>
+    <string name="position">Position</string>
+    <string name="company">Company you attended interview:</string>
+    <string name="textviewtype">Type of interview:</string>
+    <string name="editextcompany">ex:TCS</string>
+    <string name="textviewposition">What were you interviewing for?:</string>
+    <string name="editextposition">Job title/Position:</string>
+    <string name="textviewprocess">Hiring and interview process:</string>
+    <string name="editextprocess">Share as much as possible-including initial communication,number of interview ,planning etc</string>
+    <string name="textviewquestions">Interview Questions:</string>
+    <string name="editextquestion">What kind of question were asked?</string>
+    <string name="textviewoutcome">Interview outcome:</string>
+    <string-array name="outcome">
+        <item>Yes ,and I accepted</item>
+        <item>yes,But i declined</item>
+        <item>No offer</item>
+    </string-array>
+    <string name="button">Submit</string>
+    <string-array name="type">
+        <item>Face to face</item>
+        <item>Phone </item>
+        <item>Video</item>
+        <item>other</item>
+    </string-array>
+    <string name="textviewadvice">Skills tested in interview:</string>
+    <string name="editextskill">ex:logical</string>
+    <string name="processt">Hiring Process:</string>
+    <string name="advicet">Any Advice for Other candidates:</string>
+    <string name="advicee">Eg: How to dress,talk,etc</string>
+    <string name="title_activity_profiles">profiles</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigate">navigate</string>
+    <string name="read_company_review">Read Company Review</string>
+    <string name="read_interview">Read Interview</string>
+    <string name="read_some_tips">Read some tips</string>
+    <string name="mcq">MCQ</string>
+    <string name="profile">Profile</string>
+    <string name="insideinterview">insideInterview</string>
+    <string name="write_about_ypour_interview_experience">Write about your Interview Experience</string>
+    <string name="tips">Tips</string>
+    <string name="interview">Interview</string>
+    <string name="logouts">Logout</string>
+    <string name="skip_login">Skip Login</string>
+    <string name="position1">Position:</string>
+    <string name="type1">Type:</string>
+    <string name="process1">Process:</string>
+    <string name="advice1">Advice:</string>
+    <string name="outcome1">Outcome:</string>
+    <string name="questions1">Questions:</string>
+    <string name="skills_tested">Skills Tested:</string>
+    <string name="company_name">Company name:</string>
+    <string name="button1">Button</string>
+    <string name="textview">TextView</string>
+    <string name="back">Back</string>
+    <string name="company_name1">Company name:</string>
+    <string name="write_your_tips_here">Write your Tips here</string>
+    <string name="tips_for_interviewee">Tips for Interviewee:</string>
+    <string name="position12">Position</string>
+    <string name="your_position">Your Position:</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="your_name">Your Name:</string>
+    <string name="tips1">Tips:</string>
+    <string name="expert_name_e">Expert name:</string>
+    <string name="login_to_write_your_experience">Login to write your Experience</string>
+    <string name="give_tips_about_interview">Give Tips about interview</string>
+</resources>
+

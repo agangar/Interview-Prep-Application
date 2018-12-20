@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.victim.interviewapp.interviewreview">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:showDividers="middle"
+            android:weightSum="1"
+            tools:layout_editor_absoluteX="8dp"
+
+
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/textViewcompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/company"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/editTextcompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editextcompany"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewtype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textviewtype"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <Spinner
+                android:id="@+id/spinnertype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/type" />
+
+
+            <TextView
+                android:id="@+id/textViewtitle"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="@string/textviewposition"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/editTextposition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editextposition"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textViewprocess"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:hint="@string/textviewprocess"
+                android:text="@string/processt"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/editTextprocess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editextprocess"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textViewquestion"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/textviewquestions"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/editTextquestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editextquestion"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textViewoutcome"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_weight="1.27"
+                android:text="@string/textviewoutcome"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+
+            <Spinner
+                android:id="@+id/spinneroutcome"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="1.04"
+                android:entries="@array/outcome" />
+
+            <TextView
+                android:id="@+id/textviewskill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textviewadvice"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/editTextskill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/editextskill"
+                android:inputType="textMultiLine"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/textviewadvice"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:hint="@string/textviewprocess"
+                android:text="@string/advicet"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/editTextadvice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/advicee"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/buttonsubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="465dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

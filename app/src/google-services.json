@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "334383131303",
+    "firebase_url": "https://insideinterview-51471.firebaseio.com",
+    "project_id": "insideinterview-51471",
+    "storage_bucket": "insideinterview-51471.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334383131303:android:78cf962c3ae45e76",
+        "android_client_info": {
+          "package_name": "com.example.victim.interviewapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334383131303-p42iq8qullbpd1ifijaitc9g799v6ro1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqTWco6-TrhtkfUYER5n0D28ODKbHJjNE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
